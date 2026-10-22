@@ -1,0 +1,24 @@
+# Local datasets and exports
+data/raw/
+data/processed/
+*.xlsx
+*.xls
+*.csv
+*.tsv
+*.parquet
+*.zip
+
+# Local credentials and environment files
+.env
+*.json
+!package.json
+!*.schema.json
+*service-account*.json
+
+# Editor and operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.log
